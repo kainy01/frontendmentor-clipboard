@@ -1,0 +1,37 @@
+@media only screen and (min-width: 992px) {
+  .section-1 {
+    padding: 9rem 2rem 8rem 2rem;
+    background-image: url(./images/bg-header-desktop.png);}
+  .iconss {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: row;
+  }
+  .big-margin {
+    margin-top: 7rem;
+  }
+  .img-container {
+    max-width: 40rem;
+    position: relative;
+  }
+
+  .section-2 img {
+    position: absolute;
+    width: 100%;
+    left: -2.8rem;
+  }
+
+  .section-3 {
+    padding: 12rem 2rem 0rem 2rem;
+  }
+  .btn1,
+  .btn2 {
+    width: 15rem;
+    margin: 1rem;
+  }
+  .padding-text {
+    padding-right: 20rem;
+    padding-left: 20rem;
+  }
+}
